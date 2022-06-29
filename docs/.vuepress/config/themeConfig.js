@@ -9,7 +9,7 @@ module.exports = {
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
-    docsRepo: "xpc1024/ee-home-source",
+    docsRepo: "xpc1024/easy-es-home-source",
     docsDir: 'docs', // 编辑的文件夹
     editLinks: true, // 编辑链接
     editLinkText: '帮助我们改善此文档',
