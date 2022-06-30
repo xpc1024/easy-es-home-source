@@ -158,11 +158,7 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
         <img :src="$withBase('/img/link/hutool-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
     </a>
 </span>
-<span style="width: 150px;text-align: left">
-    <a href="https://gitee.com/Apache-ShenYu/incubator-shenyu" target="_blank">
-        <img :src="$withBase('/img/link/shenyu-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
-    </a>
-</span>
+
 <span style="width: 150px;text-align: left">
     <a href="https://gitee.com/dromara/forest" target="_blank">
         <img :src="$withBase('/img/link/forest-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
@@ -174,11 +170,6 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
     </a>
 </span>
 
-<span style="width: 150px;text-align: left">
-    <a href="https://dromara.org/" target="_blank">
-        <img :src="$withBase('/img/link/dromara.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
-    </a>
-</span>
 <span style="width: 150px;text-align: left">
     <a href="https://baomidou.com/" target="_blank">
         <img :src="$withBase('/img/link/mp.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
