@@ -171,6 +171,18 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
 </span>
 
 <span style="width: 150px;text-align: left">
+    <a href="https://jpom.io/" target="_blank">
+        <img :src="$withBase('/img/link/jpom-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+    </a>
+</span>
+
+<span style="width: 150px;text-align: left">
+    <a href="https://dromara.gitee.io/fast-request/" target="_blank">
+        <img :src="$withBase('/img/link/fast-request-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+    </a>
+</span>
+
+<span style="width: 150px;text-align: left">
     <a href="https://baomidou.com/" target="_blank">
         <img :src="$withBase('/img/link/mp.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
     </a>

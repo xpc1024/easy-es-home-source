@@ -1,7 +1,7 @@
 // Head Config
 module.exports = [
   ['link', { rel: 'icon', href: '/img/logo.svg' }], //favicons，资源放在public文件夹
-  ['meta', { name: 'keywords', content: 'liteflow,liteflow官网,规则引擎,流程引擎,开源,java规则引擎,rule engine,open source'}],
+  ['meta', { name: 'keywords', content: 'easy-es,Easy-Es官网,傻瓜级Elasticsearch搜索引擎orm框架'}],
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
 
   ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
