@@ -22,8 +22,8 @@
 module.exports = {
   // 万维广告
   pageT: `
-    <div class="wwads-cn wwads-horizontal page-wwads" data-id="174"></div>
-    <style>
+  <div class="wwads-cn wwads-horizontal page-wwads" data-id="174"></div>
+  <style>
       .page-wwads{
         width:100%!important;
         min-height: 0;
@@ -46,7 +46,7 @@ module.exports = {
   </style>
   `,
   // windowRB: `
-  //   <div class="wwads-cn wwads-vertical windowRB" data-id="174" style="max-width:160px;
+  //   <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
   //   min-width: auto;min-height:auto;"></div>
   //   <style>
   //     .windowRB{ padding: 0;}

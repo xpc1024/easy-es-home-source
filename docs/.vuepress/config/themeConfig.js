@@ -69,5 +69,5 @@ module.exports = {
         createYear: 2022, // 博客创建年份
         copyrightInfo: '<a href="https://gitee.com/easy-es/">老汉</a>| MIT License', // 博客版权信息，支持a标签
     },
-    htmlModules
+    htmlModules,
 }

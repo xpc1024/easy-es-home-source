@@ -2,7 +2,7 @@
 module.exports = [
   ['link', { rel: 'icon', href: '/img/logo.svg' }], //favicons，资源放在public文件夹
   ['meta', { name: 'keywords', content: 'easy-es,Easy-Es官网,傻瓜级Elasticsearch搜索引擎orm框架'}],
-  ['meta', { name: 'theme-color', content: '#FF9797' }], // 移动浏览器主题颜色
+  ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
 
   ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
   ['script', {async: true, src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
@@ -33,7 +33,7 @@ module.exports = [
     function vote() {
       var voteDetected_div = document.createElement("div");
       voteDetected_div.style.cssText = "position: absolute; top: 0; left: 0; width: 100%; background: #7bbfea; color: #fff; z-index: 9999999999; font-size: 14px; text-align: center; line-height: 1.5; font-weight: bold; padding-top: 6px; padding-bottom: 6px;";
-      voteDetected_div.innerHTML = "<a style='color:#fff;text-decoration:underline' target='_blank' href='xxxxxx'>LiteFlow 正在参与“2021年度 OSC 中国开源项目”评选，请为我们投上宝贵的一票，谢谢！</a>";
+      voteDetected_div.innerHTML = "<a style='color:#fff;text-decoration:underline' target='_blank' href='xxxxxx'>Easy-Es 正在参与“2022年度 OSC 中国开源项目”评选，请为我们投上宝贵的一票，谢谢！</a>";
       document.getElementsByTagName("body")[0].appendChild(voteDetected_div);
       voteDetected_div.onclick = function() {
         this.remove();
