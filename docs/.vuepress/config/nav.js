@@ -10,6 +10,7 @@ module.exports = [
     {
         text: '💞推荐', items: [
             {text: '健身计划一键生成系统', link: 'https://gitee.com/easy-es/fit-plan'},
+            {text: 'Vuepress-theme-vdoing', link: 'https://doc.xugaoyi.com/'}
         ]
     },
     {text: 'Gitee', link: 'https://gitee.com/dromara/easy-es'},
