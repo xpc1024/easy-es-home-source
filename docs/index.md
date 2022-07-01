@@ -188,12 +188,23 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
     </a>
 </span>
 
-<!-- AD 
-<div class="wwads-cn wwads-horizontal page-ad" data-id="129" style="width:100%;max-height:80px;min-height:auto;"></div>
+<!-- AD-->
+<div class="wwads-cn wwads-horizontal page-ad" data-id="174" style="width:100%;max-height:80px;min-height:auto;"></div>
 <style>
   .page-ad img{width:80px!important;}
   /* .pageT .wwads-content{display:flex;align-items: center;}
   .pageT .wwads-poweredby{display:none!important;}
   .pageT .wwads-hide{display:none!important;} */
 </style>
--->
+
+
+<!--百度站长统计-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2054ac52d100911334d841030fe40c5b";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
