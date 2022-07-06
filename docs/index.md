@@ -84,6 +84,11 @@ compile group: 'cn.easy-es', name: 'easy-es-boot-starter', version: 'Latest Vers
 
 <br/>
 
+## 安全 
+<a href="https://www.murphysec.com/dr/1hRHmuH0DE3RYL9uE0" alt="OSCS Status"><img src="https://www.oscs1024.com/platform/badge/dromara/easy-es.git.svg?size=small"/></a>
+
+我们已接入墨菲安全扫描，ee源码中未被扫描出任何风险项，确保人畜无害！大家可放心使用，当然如果您仍不放心，我们推荐您在使用前下载ee源码亲自阅读一番，我们是100%开源，是否有风险您一看便知。
+
 ## 🎉致谢
 
 Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群答疑总计超500人，收获Star超2K， 尽管这算不上很多,但对于ES这种高门槛,低频使用的工具,已经算得上优秀了,而且开源至今时间不超半年，
