@@ -11,6 +11,7 @@ module.exports = {
 
     docsRepo: "xpc1024/easy-es-home-source",
     docsDir: 'docs', // 编辑的文件夹
+    docsBranch: 'main',
     editLinks: true, // 编辑链接
     editLinkText: '帮助我们改善此文档',
 
