@@ -62,7 +62,7 @@ postList: none
 <dependency>
     <groupId>cn.easy-es</groupId>
     <artifactId>easy-es-boot-starter</artifactId>
-    <version>Latest Version</version>
+    <version>${Latest Version}</version>
 </dependency>
 ```
 **Gradle:**
@@ -75,19 +75,27 @@ compile group: 'cn.easy-es', name: 'easy-es-boot-starter', version: 'Latest Vers
 
 在1.0正式稳定版本发布前,我们所有功能已经面向全球开发者长期试用, 而且针对每项功能我们都有测试用例覆盖.
 
-另外我们针对整个框架的性能,安全等方面都做了理论分析+实际测试,确保每位用户用得放心.
+单元测试用例综合覆盖率超95%,已上线的所有功能均有测试用例覆盖,且经过生产环境和开源社区大量用户使用验证,
 
-我们由Star总数超10万的Dromara社区孵化,并有良好的社区答疑群。基本上有问必答，如出现bug，通常2个工作日内必解决。
+另外我们针对整个框架的性能,安全等方面都做了理论分析+实际测试,确保每位用户用得放心,具体可查看文档顾虑粉碎模块.
 
-所以，请放心使用！
+我们由Star总数超10万的Dromara社区孵化,并有良好的社区答疑群.基本上有问必答，如出现bug,通常2个工作日内必解决.
+
+引入EE即引入了ES所需最小全部依赖,无需再额外去研究和引入ES所需依赖,我们对所有项目透明,代码零侵入,引入不影响您
+
+当前项目的所有功能,底层是RestHighLevelClient,引入后您依旧可以使用RestHighLevelClient全部功能,并且可以
+
+享受到EE为您提供的各种开箱即用的功能和解放双手的智能化套件.
+
+所以,请您放心引入使用！
 :::
 
 <br/>
 
 ## 安全 
-<a href="https://www.murphysec.com/dr/1hRHmuH0DE3RYL9uE0" alt="OSCS Status"><img src="https://www.oscs1024.com/platform/badge/dromara/easy-es.git.svg?size=small"/></a>
+<a href="https://www.murphysec.com/dr/htY0sMYDQaDn4X8iXp" alt="OSCS Status"><img src="https://www.oscs1024.com/platform/badge/dromara/easy-es.git.svg?size=small"/></a>
 
-我们已接入墨菲安全扫描，ee源码中未被扫描出任何风险项，确保人畜无害！大家可放心使用，当然如果您仍不放心，我们推荐您在使用前下载ee源码亲自阅读一番，我们是100%开源，是否有风险您一看便知。
+我们已接入OSCS墨菲安全扫描，ee源码中未被扫描出任何风险项，超越100%的项目，确保人畜无害！(具体可点击上面图标查看) 大家可放心使用，当然如果您仍不放心，我们推荐您在使用前下载ee源码亲自阅读一番，我们是100%开源，是否有风险您一看便知。
 
 ## 🎉致谢
 
