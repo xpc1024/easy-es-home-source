@@ -15,9 +15,10 @@ module.exports = [
     },
     {text: 'Gitee', link: 'https://gitee.com/dromara/easy-es'},
     {text: 'Github', link: 'https://github.com/dromara/easy-es'},
-    {text: '💫语言选择',items: [
-            {text: '简体中文',link:"https://easy-es.cn"},
-            {text: 'English',link:"https://en.easy-es.cn"}
+    {
+        text: '💫Language', items: [
+            {text: '简体中文', link: 'https://easy-es.cn', target: '_self', rel: ''},
+            {text: 'English', link: 'https://en.easy-es.cn', target: '_self', rel: ''}
         ]
     }
 ];
