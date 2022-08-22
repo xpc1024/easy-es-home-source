@@ -150,6 +150,14 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
 }
 </style>
 
+## 📚 知识星球
+<div>
+    <a href="https://gitee.com/" target="_blank" >
+        <img style="width:412px; height:200px;" :src="$withBase('/img/zsxq.jpg')" >
+    </a>
+</div>
+
+
 ## 🤝 Dromara 组织项目
 
 <p align="center">
@@ -231,7 +239,7 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
 </a>
 
 ## 🧲友情链接
-<div class="friends-item">
+<div>
   <span style="width: 150px;flex:1;text-align: left">
       <a href="https://gitee.com" target="_blank">
           <img :src="$withBase('/img/external/gitee-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
