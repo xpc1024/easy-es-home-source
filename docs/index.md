@@ -153,7 +153,7 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
 ## 📚 知识星球
 <div>
     <a href="https://gitee.com/" target="_blank" >
-        <img style="width:412px; height:200px;" :src="$withBase('/img/zsxq.png')" >
+        <img style="zoom:50%;" :src="$withBase('/img/zsxq.png')" >
     </a>
 </div>
 
