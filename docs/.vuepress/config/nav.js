@@ -1,6 +1,6 @@
 module.exports = [
-    {text: '首页', link: '/'},
-    {text: '文档', link: '/pages/ec7460/'},
+    {text: '💋首页', link: '/'},
+    {text: '🔞文档', link: '/pages/ec7460/'},
     {text: '💖支持', link: '/pages/fb599d/'},
     {text: '🌻生态', link: '/pages/1a819d/'},
     {text: '🚀关于项目', link: '/pages/55wa9d/'},

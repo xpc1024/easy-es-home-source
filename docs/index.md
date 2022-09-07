@@ -30,13 +30,27 @@ postList: none
 .become-sponsor{
   padding: 8px 20px;
   display: inline-block;
-  color:  #FF9797;
+  color:  #FFB6C1;
   border-radius: 30px;
   box-sizing: border-box;
-  border: 2px solid #FF9797;
+  border: 2px solid #FFB6C1;
 }
 </style>
 
+## ⛵赞助商
+
+::: cardList
+```yaml
+- name: Eoapi
+  desc: 开源 API 管理工具，接口文档、接口测试、Mock...
+  avatar: /img/sponsor/eoApi-logo.png
+  link: https://docs.eoapi.io/?utm_source=ZZ090201
+  bgColor: '#FFB6C1'
+  textColor: '#FFFFFF'
+```
+:::
+
+<br/>
 <br/>
 
 ## 🍬特性
@@ -53,6 +67,7 @@ postList: none
 - **支持ES高阶语法**:支持聚合,嵌套,父子类型,高亮搜索,分词查询,权重查询,Geo地理位置查询,IP查询等高阶语法，应有尽有。
 - **良好的拓展性**:底层仍使用RestHighLevelClient，可保持其拓展性，开发者在使用EE的同时，仍可使用RestHighLevelClient的所有功能。
 
+<br/>
 <br/>
 
 ## ✨最新版本 Latest Version: [![Maven Central](https://img.shields.io/github/v/release/xpc1024/easy-es?include_prereleases&logo=xpc&style=plastic)](https://search.maven.org/search?q=g:io.github.xpc1024%20a:easy-*)
@@ -71,6 +86,8 @@ postList: none
 ```groovy
 compile group: 'cn.easy-es', name: 'easy-es-boot-starter', version: 'Latest Version'
 ```
+<br/>
+<br/>
 
 :::tip 版本稳定吗？
 
@@ -92,11 +109,15 @@ compile group: 'cn.easy-es', name: 'easy-es-boot-starter', version: 'Latest Vers
 :::
 
 <br/>
+<br/>
 
 ## 安全 
 <a href="https://www.murphysec.com/dr/htY0sMYDQaDn4X8iXp" alt="OSCS Status"><img src="https://www.oscs1024.com/platform/badge/dromara/easy-es.git.svg?size=small"/></a>
 
 我们已接入[OSCS墨菲安全扫描](https://www.murphysec.com/dr/htY0sMYDQaDn4X8iXp)，ee源码中未被扫描出任何风险项，超越100%的项目，确保人畜无害！ 大家可放心使用，当然如果您仍不放心，我们推荐您在使用前下载ee源码亲自阅读一番，我们是100%开源，是否有风险您一看便知。
+
+<br/>
+<br/>
 
 ## 🎉致谢
 
@@ -104,7 +125,7 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
 
 这离不开社区小伙伴的支持和意见以及PR,感谢你们!我们会秉承"把简单,易用,方便留给用户,把复杂留给框架"的理念,致力于实现"让天下没有难用的ES"愿景,继续砥砺前行!
 
-
+<br/>
 <br/>
 
 ## 🏡代码托管
@@ -118,6 +139,7 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
 </a>
 
 <br/>
+<br/>
 
 ## 💪🏻参与开发
 
@@ -126,29 +148,7 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
 如果您想贡献，请先查看[参与开发](/pages/ae4dd5/)。
 
 <br/>
-
-## 🍭架构图
-
-<img :src="$withBase('/img/eejg.svg')" style="zoom: 120%">
-
 <br/>
-
-<style>
-.friends-item {
-  width: 150px;
-  height:40px;
-  flex:1;
-  text-align: center;
-  display: inline-block;
-  margin: 5px;
-}
-
-.friends-item-img {
-  object-fit: contain;
-  max-width:150px !important;
-  height: 100%;
-}
-</style>
 
 ## 📚 知识星球
 <div>
@@ -157,86 +157,89 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
     </a>
 </div>
 
+<br/>
+<br/>
+
 
 ## 🤝 Dromara 组织项目
 
-<p align="center">
-<b><a href="https://dromara.org/zh/projects/" target="_blank">为往圣继绝学，一个人或许能走的更快，但一群人会走的更远。</a></b>
+<p>
+<b><a href="https://dromara.org/zh/projects/" target="_blank">为往圣继绝学,一个人或许能走的更快,但一群人会走的更远!</a></b>
 </p>
+<div>
+    <a href="https://easy-es.cn/" target="_blank" style="width:15%;  padding:10px 10px 10px 0;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/easy-es.png')" title="🚀傻瓜级ElasticSearch搜索引擎ORM框架">
+    </a>
+    <a href="https://hutool.cn/" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/hutool.svg')" title="🍬小而全的Java工具类库，使Java拥有函数式语言般的优雅，让Java语言也可以“甜甜的”。">
+    </a>
+    <a href="https://sa-token.dev33.cn/" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/sa-token.png')" title="一个轻量级 java 权限认证框架，让鉴权变得简单、优雅！">
+    </a>
+    <a href="https://gitee.com/dromara/liteFlow" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/lite-flow.png')" title="轻量，快速，稳定，可编排的组件式流程引擎">
+    </a>
+    <a href="https://hertzbeat.com/" target="_blank" style="width:15%;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/hertzbeat-logo.png')" title="易用友好的云监控系统">
+    </a>
+    <a href="http://forest.dtflyx.com/" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/forest-logo.png')" title="Forest能够帮助您使用更简单的方式编写Java的HTTP客户端" nf>
+    </a>
+    <a href="https://dromara.gitee.io/fast-request/" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/fastRequest.png')" title="Idea版postman神器">
+    </a>
+    <a href="https://gitee.com/dromara/Raincat" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/raincat-logo.png')" title="强一致性分布式事务解决方案。">
+    </a>
+    <a href="https://gitee.com/dromara/myth" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/myth-logo.png')" title="可靠消息分布式事务解决方案。">
+    </a>
+    <a href="https://su.usthe.com/" target="_blank" style="width:15%;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/sureness-logo.png')" title="面向 REST API 的高性能认证鉴权框架">
+    </a>
+    <a href="https://www.jeesuite.com/" target="_blank" style="width:15%;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/mendmix-logo.png')" title="开源分布式云原生架构一站式解决方案">
+    </a>
+    <a href="https://gitee.com/dromara/northstar" target="_blank" style="width:15%;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/northstar-logo.png')" title="Northstar盈富量化交易平台">
+    </a>
+    <a href="https://maxkey.top/" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/maxkey-logo.png')" title="业界领先的身份管理和认证产品">
+    </a>
+    <a href="https://www.herodotus.cn/" target="_blank" style="width:15%;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/dantecloud.png')" title="Dante-Cloud 是一款企业级微服务架构和服务能力开发平台。">
+    </a>
+    <a href="https://dynamictp.cn/" target="_blank" style="width:15%;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/dynamictp-logo.png')" title="🔥🔥🔥 基于配置中心的轻量级动态可监控线程池">
+    </a>
+    <a href="https://www.x-easypdf.cn" target="_blank" style="width:15%;  padding:10px 0 10px 10px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/easypdf.png')" title="一个用搭积木的方式构建pdf的框架（基于pdfbox）">
+    </a>
+    <a href="https://async.sizegang.cn/" target="_blank" style="width:15%;  padding:10px 10px 10px 0;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/gobrs-async.png')" title="🔥 配置极简功能强大的异步任务动态编排框架">
+    </a>
+    <a href="https://gitee.com/dromara/koalas-rpc" target="_blank" style="width:15%;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/koalas-logo.png')" title="企业生产级百亿日PV高可用可拓展的RPC框架。">
+    </a>
+    <a href="http://dromara.gitee.io/image-combiner" target="_blank" style="width:15%;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/imageCombiner.png')" title="一个专门用于图片合成的工具，没有很复杂的功能，简单实用，却不失强大">
+    </a>
+    <a href="https://gitee.com/dromara/TLog" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/tlog-logo.png')" title="一个轻量级的分布式日志标记追踪神器，10分钟即可接入，自动对日志打标签完成微服务的链路追踪">
+    </a>
+    <a href="https://cubic.jiagoujishu.com/" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/cubic-logo.png')" title="一站式问题定位平台，以agent的方式无侵入接入应用，完整集成arthas功能模块，致力于应用级监控，帮助开发人员快速定位问题">
+    </a>
+    <a href="https://gitee.com/dromara/hmily" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/hmily-logo.png')" title="高性能一站式分布式事务解决方案。">
+    </a>
+    <a href="https://jpom.io/" target="_blank" style="width:15%;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/jpom-logo.png')" title="一款简而轻的低侵入式在线构建、自动部署、日常运维、项目监控软件">
+    </a>
+</div>
 
-<p >
-<a class="friends-item" href="https://hutool.cn/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/hutool2.png')" alt="🍬小而全的Java工具类库，使Java拥有函数式语言般的优雅，让Java语言也可以“甜甜的”。">
-</a>
-<a class="friends-item" href="https://sa-token.dev33.cn/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/sa-token.png')" alt="一个轻量级 java 权限认证框架，让鉴权变得简单、优雅！">
-</a>
-<a class="friends-item" href="https://liteflow.yomahub.com/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/liteflow2.png')" alt="轻量，快速，稳定，可编排的组件式流程引擎">
-</a>
-<a class="friends-item" href="https://jpom.top/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/jpom.png')" alt="一款简而轻的低侵入式在线构建、自动部署、日常运维、项目监控软件">
-</a>
-<a class="friends-item" href="https://gitee.com/dromara/TLog" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/tlog2.png')" alt="一个轻量级的分布式日志标记追踪神器，10分钟即可接入，自动对日志打标签完成微服务的链路追踪">
-</a>
-<a class="friends-item" href="https://easy-es.cn/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/easy-es2.png')" alt="🚀傻瓜级ElasticSearch搜索引擎ORM框架">
-</a>
-<a class="friends-item" href="https://gitee.com/dromara/hmily" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/hmily.png')" alt="高性能一站式分布式事务解决方案。">
-</a>
-<a class="friends-item" href="https://gitee.com/dromara/Raincat" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/raincat.png')" alt="强一致性分布式事务解决方案。">
-</a>
-<a class="friends-item" href="https://gitee.com/dromara/myth" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/myth.png')" alt="可靠消息分布式事务解决方案。">
-</a>
-<a class="friends-item" href="https://cubic.jiagoujishu.com/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/cubic.png')" alt="一站式问题定位平台，以agent的方式无侵入接入应用，完整集成arthas功能模块，致力于应用级监控，帮助开发人员快速定位问题">
-</a>
-<a class="friends-item" href="http://forest.dtflyx.com/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/forest-logo.png')" alt="Forest能够帮助您使用更简单的方式编写Java的HTTP客户端" nf>
-</a>
-<a class="friends-item" href="https://su.usthe.com/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/sureness.png')" alt="面向 REST API 的高性能认证鉴权框架">
-</a>
-<a class="friends-item" href="https://gitee.com/dromara/northstar" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/northstar_logo.png')" alt="Northstar盈富量化交易平台">
-</a>
-<a class="friends-item" href="https://www.jeesuite.com/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/mendmix.png')" alt="开源分布式云原生架构一站式解决方案">
-</a>
-<a class="friends-item" href="https://www.x-easypdf.cn" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/koalas-rpc2.png')" alt="企业生产级百亿日PV高可用可拓展的RPC框架。">
-</a>
-<a class="friends-item" href="https://dynamictp.cn/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/dynamic-tp.png')" alt="🔥🔥🔥 基于配置中心的轻量级动态可监控线程池">
-</a>
-<a class="friends-item" href="https://hertzbeat.com/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/hertzbeat_brand.jpg')" alt="易用友好的云监控系统">
-</a>
-<a class="friends-item" href="https://maxkey.top/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/maxkey.png')" alt="业界领先的身份管理和认证产品">
-</a>
-<a class="friends-item" href="https://plugins.sheng90.wang/fast-request/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/fast-request.png')" alt="Idea 版 Postman，为简化调试API而生">
-</a>
-<a class="friends-item" href="https://async.sizegang.cn/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/gobrs-async.png')" alt="🔥 配置极简功能强大的异步任务动态编排框架">
-</a>
-<a class="friends-item" href="https://www.x-easypdf.cn" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/x-easypdf.png')" alt="一个用搭积木的方式构建pdf的框架（基于pdfbox）">
-</a>
-<a class="friends-item" href="http://dromara.gitee.io/image-combiner" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/image-combiner.png')" alt="一个专门用于图片合成的工具，没有很复杂的功能，简单实用，却不失强大">
-</a>
-<a class="friends-item" href="https://www.herodotus.cn/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/dante-cloud2.png')" alt="Dante-Cloud 是一款企业级微服务架构和服务能力开发平台。">
-</a>
-<a class="friends-item" href="https://dromara.org/zh/projects/" target="_blank">
-	<img class="no-zoom friends-item-img" :src="$withBase('/img/friends/link/dromara.png')" alt="让每一位开源爱好者，体会到开源的快乐。">
-</a>
+<br/>
+<br/>
 
 ## 🧲友情链接
 <div>
@@ -256,6 +259,9 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
       </a>
   </span>
 </div>
+
+<br/>
+<br/>
 
 <!-- AD -->
 <div class="wwads-cn wwads-horizontal page-wwads" data-id="174"></div>
