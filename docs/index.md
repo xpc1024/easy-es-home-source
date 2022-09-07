@@ -20,11 +20,13 @@ features: # 可选的
 postList: none
 ---
 
-<br/><br/>
+<br/>
 
 <p align="center">
   <a class="become-sponsor" href="/pages/fb599d/">支持这个项目</a>
 </p>
+
+<br/>
 
 <style>
 .become-sponsor{
