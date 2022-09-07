@@ -43,7 +43,7 @@ postList: none
 ```yaml
 - name: Eoapi
   desc: 开源 API 管理工具，接口文档、接口测试、Mock...
-  avatar: /img/sponsor/eoApi-logo.png
+  avatar: /img/sponsor/eoapi-logo.jpg
   link: https://docs.eoapi.io/?utm_source=ZZ090201
   bgColor: '#FFB6C1'
   textColor: '#FFFFFF'
