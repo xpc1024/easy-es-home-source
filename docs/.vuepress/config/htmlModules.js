@@ -22,7 +22,7 @@
 module.exports = {
   // 赞助商广告
   sidebarT: `
-    <a href="https://docs.eoapi.io/?utm_source=ZZ090202" target="_blank">
+    <a href="https://www.eoapi.io/?utm_source=sponsor&utm_campaign=s-easyes" target="_blank">
       <img class="no-zoom" height="60" width="224" src="/img/sponsor/eoapi.gif">
     </a>
   `,
