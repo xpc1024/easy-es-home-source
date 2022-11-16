@@ -49,6 +49,13 @@ postList: none
   link: https://www.eoapi.io/?utm_source=sponsor&utm_campaign=s-easyes
   bgColor: '#FFB6C1'
   textColor: '#FFFFFF'
+
+- name: AgileBPM
+  desc: 快速、简洁且强大的低代码工作流开发平台...
+  avatar: /img/sponsor/agile-logo.png
+  link: https://www.tongzhouyun.com/
+  bgColor: '#FFB6C1'
+  textColor: '#FFFFFF'
 ```
 :::
 
@@ -123,7 +130,7 @@ compile group: 'cn.easy-es', name: 'easy-es-boot-starter', version: 'Latest Vers
 
 ## 🎉致谢
 
-Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群答疑总计超500人，收获Star超2K， 尽管这算不上很多,但对于ES这种高门槛,低频使用的工具,已经算得上优秀了,而且开源至今时间不超半年，
+Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群答疑总计超千人，收获Star超3K， 尽管这算不上很多,但对于ES这种高门槛,低频使用的工具,已经算得上优秀了,而且开源至今时间不超1年，
 
 这离不开社区小伙伴的支持和意见以及PR,感谢你们!我们会秉承"把简单,易用,方便留给用户,把复杂留给框架"的理念,致力于实现"让天下没有难用的ES"愿景,继续砥砺前行!
 
