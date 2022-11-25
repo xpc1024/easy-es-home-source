@@ -56,6 +56,14 @@ postList: none
   link: https://www.tongzhouyun.com/
   bgColor: '#FFB6C1'
   textColor: '#FFFFFF'
+
+- name: Zion
+  desc: 云IDE,支持实时预览,所见即所得的开发体验...
+  avatar: /img/sponsor/zion-logo.jpg
+  link: https://functorz.com/?channel=easyes
+  bgColor: '#FFB6C1'
+  textColor: '#FFFFFF'
+
 ```
 :::
 

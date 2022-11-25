@@ -27,7 +27,10 @@ module.exports = {
     </a>
     <a href="https://www.tongzhouyun.com/" target="_blank">
       <img class="no-zoom" height="60" width="224" src="/img/sponsor/agile.png">
-    </a>    
+    </a>  
+    <a href="https://functorz.com/?channel=easyes" target="_blank">
+      <img class="no-zoom" height="60" width="224" src="/img/sponsor/zion.gif">
+    </a>         
   `,
 
   // 万维广告
