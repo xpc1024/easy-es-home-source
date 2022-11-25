@@ -63,7 +63,13 @@ postList: none
   link: https://functorz.com/?channel=easyes
   bgColor: '#FFB6C1'
   textColor: '#FFFFFF'
-
+  
+- name: MaxKey
+  desc: 业界领先的身份管理和单点登录产品...
+  avatar: /img/sponsor/maxkey-logo.jpg
+  link: https://maxkey.top/
+  bgColor: '#FFB6C1'
+  textColor: '#FFFFFF'
 ```
 :::
 
