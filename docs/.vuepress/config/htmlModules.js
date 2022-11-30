@@ -28,9 +28,6 @@ module.exports = {
     <a href="https://www.tongzhouyun.com/" target="_blank">
       <img class="no-zoom" height="60" width="224" src="/img/sponsor/agile.png">
     </a>  
-    <a href="https://functorz.com/?channel=easyes" target="_blank">
-      <img class="no-zoom" height="60" width="224" src="/img/sponsor/zion.gif">
-    </a>   
     <a href="https://maxkey.top/" target="_blank">
       <img class="no-zoom" height="60" width="224" src="/img/sponsor/maxkey.png">
     </a>            

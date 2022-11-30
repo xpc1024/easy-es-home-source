@@ -56,16 +56,9 @@ postList: none
   link: https://www.tongzhouyun.com/
   bgColor: '#FFB6C1'
   textColor: '#FFFFFF'
-
-- name: Zion
-  desc: 云IDE,支持实时预览,所见即所得的开发体验...
-  avatar: /img/sponsor/zion-logo.jpg
-  link: https://functorz.com/?channel=easyes
-  bgColor: '#FFB6C1'
-  textColor: '#FFFFFF'
   
 - name: MaxKey
-  desc: 业界领先的身份管理和单点登录产品...
+  desc: 业界领先、安全、可靠的身份管理和单点登录产品...
   avatar: /img/sponsor/maxkey-logo.jpg
   link: https://maxkey.top/
   bgColor: '#FFB6C1'
