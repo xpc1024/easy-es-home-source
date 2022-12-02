@@ -252,6 +252,9 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
     <a href="https://jpom.io/" target="_blank" style="width:15%;  padding:10px 5px 10px 5px;display:inline-block">
         <img style="height:40px;" :src="$withBase('/img/link/jpom-logo.png')" class="no-zoom" title="一款简而轻的低侵入式在线构建、自动部署、日常运维、项目监控软件">
     </a>
+    <a href="https://gitee.com/dromara/go-view" target="_blank" style="width:15%;  padding:10px 5px 10px 5px;display:inline-block">
+        <img style="height:40px;" :src="$withBase('/img/link/goview-logo.png')" class="no-zoom" title="让每一位开源爱好者，体会到开源的快乐">
+    </a>
 </div>
 
 <br/>
