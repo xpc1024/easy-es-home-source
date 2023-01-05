@@ -22,7 +22,7 @@
 module.exports = {
   // 赞助商广告
   sidebarT: `
-    <a href="https://www.eoapi.io/?utm_source=sponsor&utm_campaign=s-easyes" target="_blank">
+    <a href="https://postcat.com/?utm_source=sponsor&utm_campaign=s-easyes" target="_blank">
       <img class="no-zoom" height="60" width="224" src="/img/sponsor/eoapi.gif">
     </a>
     <a href="https://www.tongzhouyun.com/" target="_blank">
