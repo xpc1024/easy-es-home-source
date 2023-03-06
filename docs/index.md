@@ -43,10 +43,10 @@ postList: none
 
 ::: cardList
 ```yaml
-- name: Eoapi
-  desc: 开源 API 管理工具，接口文档、接口测试、Mock...
-  avatar: /img/sponsor/eoapi-logo.jpg
-  link: https://postcat.com/?utm_source=sponsor&utm_campaign=s-easyes
+- name: Postcat
+  desc: 强大、开源、跨平台的 API 开发测试工具...
+  avatar: /img/sponsor/postcat-logo.png
+  link: https://datayi.cn/w/4PY7qq59
   bgColor: '#FFB6C1'
   textColor: '#FFFFFF'
 
