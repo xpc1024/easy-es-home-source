@@ -1,13 +1,17 @@
 ---
 home: true
 heroImage: /img/logo.svg
+heroText: Easy-Es
 
 tagline: 🚀傻瓜级ElasticSearch搜索引擎ORM框架
-actionText: 开始使用 →
-actionLink: /pages/ec7460/
+actions:
+- actionText: 🚀开始使用！
+  actionLink: /pages/7ead0d/
+- actionText: ❥(^_-)为爱发电
+  actionLink: https://afdian.net/a/easy-es
+  actionClass: action-button-easyes
 bannerBg: /img/back.png # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
-defaultMode: dark
-
+defaultMode: light
 features: # 可选的
   - title: 轻巧强大
     details: 小身躯蕴藏着大能量，几乎零学习成本，几分钟就能上手。却可以完成复杂的ES功能。
@@ -17,13 +21,20 @@ features: # 可选的
     details: 自动索引托管，自动分页，傻瓜级CRUD，高亮，权重，聚合，IP，GEO地理位置，父子嵌套，应有尽有。
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
+
 postList: none
+notices: # 可选的
+    - id: Easy-Es-2.0.0-beta1
+      title: 🚀 Easy-Es v2.0.0-beta1 发布！
+      content: '<div><p>2023-03</p><ul><li>四大嵌套查询支持</li><li>共计二十余项新特性及优化</li><li>bug修复等</li></ul></div><p style="text-align: right;"><a href="/pages/2934a3/">查看详情</a></p>'
+      isHtmlContent: true
 ---
+<Notice :data="$frontmatter.notices"/>
 
 <br/>
 
 <p align="center">
-  <a class="become-sponsor" href="/pages/fb599d/">支持这个项目</a>
+  <a class="become-sponsor" href="/pages/fb599d/">成为赞助商</a>
 </p>
 
 <br/>
@@ -107,7 +118,7 @@ compile group: 'cn.easy-es', name: 'easy-es-boot-starter', version: 'Latest Vers
 
 :::tip 版本稳定吗？
 
-在1.0正式稳定版本发布前,我们所有功能已经面向全球开发者长期试用, 而且针对每项功能我们都有测试用例覆盖.
+在版本发布前,我们针对每项功能我们都有测试用例覆盖,
 
 单元测试用例综合覆盖率超95%,已上线的所有功能均有测试用例覆盖,且经过生产环境和开源社区大量用户使用验证,
 
@@ -304,5 +315,20 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
     padding-top: 5px;
     display: block;
   }
+</style>
 
+<style lang="stylus">
+.action-button-easyes
+    margin-left 0.5rem
+    display inline-block
+    font-size 1.2rem
+    background-color #FFCCCC
+    padding 0.8rem 1.6rem
+    border-radius 4px
+    transition background-color 0.1s ease
+    box-sizing border-box
+    border-bottom 1px solid #A63939
+    color #000000
+    &:hover
+        background-color lighten(#FF99CC, 10%)
 </style>
