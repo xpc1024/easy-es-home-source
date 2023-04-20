@@ -71,7 +71,7 @@ notices: # 可选的
 - name: MaxKey
   desc: 业界领先、安全、可靠的身份管理和单点登录产品...
   avatar: /img/sponsor/maxkey-logo.jpg
-  link: https://maxkey.top/
+  link: http://maxkey.top/
   bgColor: '#FFB6C1'
   textColor: '#FFFFFF'
 ```
@@ -231,7 +231,7 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
     <a href="https://gitee.com/dromara/northstar" target="_blank" style="width:15%;  padding:10px 5px 10px 5px;display:inline-block">
         <img style="height:40px;" :src="$withBase('/img/link/northstar-logo.png')" class="no-zoom" title="Northstar盈富量化交易平台">
     </a>
-    <a href="https://maxkey.top/" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
+    <a href="http://maxkey.top/" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
         <img style="height:40px;" :src="$withBase('/img/link/maxkey-logo.png')" class="no-zoom" title="业界领先的身份管理和认证产品">
     </a>
     <a href="https://www.herodotus.cn/" target="_blank" style="width:15%;  padding:10px 5px 10px 5px;display:inline-block">

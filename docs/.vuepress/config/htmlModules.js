@@ -28,7 +28,7 @@ module.exports = {
     <a href="https://www.tongzhouyun.com/" target="_blank">
       <img class="no-zoom" height="60" width="224" src="/img/sponsor/agile.png">
     </a>  
-    <a href="https://maxkey.top/" target="_blank">
+    <a href="http://maxkey.top/" target="_blank">
       <img class="no-zoom" height="60" width="224" src="/img/sponsor/maxkey.png">
     </a>            
   `,
