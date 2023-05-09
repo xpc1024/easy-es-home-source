@@ -24,6 +24,7 @@ module.exports = [
     {text: '🌻生态', link: '/pages/1a819d/'},
     {
         text: '🚀关于项目', items: [
+            {text: '项目PPT', link: 'https://iknow.hs.net/adc19432-ed67-4afc-a337-89cea135165e.pptx'},
             {text: '项目介绍', link: '/pages/55wa9d/'},
             {text: '项目成员', link: '/pages/74d5ef/'},
             {text: '参与贡献', link: '/pages/7d828w/'}
