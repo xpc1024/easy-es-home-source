@@ -5,9 +5,9 @@ heroText: Easy-Es
 
 tagline: 🚀傻瓜级ElasticSearch搜索引擎ORM框架
 actions:
-- actionText: 🚀开始使用！
+- actionText: 🚀开始使用
   actionLink: /pages/7ead0d/
-- actionText: ❥(^_-)为爱发电
+- actionText: 💘爱发电
   actionLink: https://afdian.net/a/easy-es
   actionClass: action-button-easyes
 bannerBg: /img/back.png # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
@@ -25,8 +25,8 @@ features: # 可选的
 postList: none
 notices: # 可选的
     - id: Easy-Es-2.0.0-beta
-      title: 🚀 Easy-Es v2.0.0-beta 发布！
-      content: '<div><p>2023-03</p><ul><li>四大嵌套查询支持</li><li>共计二十余项新特性及优化</li><li>bug修复等</li></ul></div><p style="text-align: right;"><a href="/pages/2934a3/">查看详情</a></p>'
+      title: 🚀 Easy-Es v2.0.0-betaX 发布！
+      content: '<div><p>2023-04</p><ul><li>四大嵌套查询支持</li><li>共计二十余项新特性及优化</li><li>bug修复等</li></ul></div><p style="text-align: right;"><a href="/pages/2934a3/">查看详情</a></p>'
       isHtmlContent: true
 ---
 <Notice :data="$frontmatter.notices"/>
@@ -320,10 +320,11 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
 
 <style lang="stylus">
 .action-button-easyes
-    margin-left 0.5rem
+    margin-left 0.7rem
+    margin-top 0.5rem
     display inline-block
     font-size 1.2rem
-    background-color #FFCCCC
+    background-color #FFB6C1
     padding 0.8rem 1.6rem
     border-radius 4px
     transition background-color 0.1s ease
@@ -331,5 +332,5 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
     border-bottom 1px solid #A63939
     color #000000
     &:hover
-        background-color lighten(#FF99CC, 10%)
+        background-color lighten(#FFB6C1, 10%)
 </style>
