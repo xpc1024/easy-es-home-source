@@ -30,7 +30,10 @@ module.exports = {
     </a>  
     <a href="http://maxkey.top/" target="_blank">
       <img class="no-zoom" height="60" width="224" src="/img/sponsor/maxkey.png">
-    </a>            
+    </a>    
+    <a href="https://gpt4u.top" target="_blank">
+      <img class="no-zoom" height="60" width="224" src="/img/sponsor/gpt4u.png">
+    </a>               
   `,
 
   // 万维广告
