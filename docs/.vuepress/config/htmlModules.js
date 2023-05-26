@@ -31,9 +31,12 @@ module.exports = {
     <a href="http://maxkey.top/" target="_blank">
       <img class="no-zoom" height="60" width="224" src="/img/sponsor/maxkey.png">
     </a>    
-    <a href="https://ai4u.cloud" target="_blank">
+    <a href="http://103.118.41.167:53000/" target="_blank">
       <img class="no-zoom" height="60" width="224" src="/img/sponsor/ai4u.jpg">
-    </a>               
+    </a>        
+        <a href="https://www.mingdao.com/" target="_blank">
+      <img class="no-zoom" height="60" width="224" src="/img/sponsor/mingdao.jpg">
+    </a>          
   `,
 
   // 万维广告

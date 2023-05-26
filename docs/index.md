@@ -74,6 +74,14 @@ notices: # 可选的
   link: http://maxkey.top/
   bgColor: '#FFB6C1'
   textColor: '#FFFFFF'
+
+- name: 明道云
+  desc: 快速响应业务需求，从“IT背锅侠”变成“IT英雄”
+  avatar: /img/sponsor/mingdao-logo.jpg
+  link: https://www.mingdao.com/
+  bgColor: '#00BFFF'
+  textColor: '#FFFFFF'
+
 ```
 :::
 
@@ -142,9 +150,11 @@ compile group: 'org.dromara.easy-es', name: 'easy-es-boot-starter', version: 'La
 ## 安全 
 <a href="https://www.murphysec.com/dr/htY0sMYDQaDn4X8iXp" alt="OSCS Status"><img src="https://www.oscs1024.com/platform/badge/dromara/easy-es.git.svg?size=small"/></a>
 
-我们已接入[OSCS墨菲安全扫描](https://www.murphysec.com/dr/htY0sMYDQaDn4X8iXp)，ee源码中未被扫描出任何风险项，超越100%的项目，确保人畜无害！ 大家可放心使用，当然如果您仍不放心，我们推荐您在使用前下载ee源码亲自阅读一番，我们是100%开源，是否有风险您一看便知。
-
+我们已接入OSCS墨菲安全扫描ee源码中未被扫描出任何风险项，并且框架采用Apache2.0许可协议，确保人畜无害！ 大家可放心使用，当然如果您仍不放心，我们推荐您在使用前下载ee源码亲自阅读一番，我们是100%开源，是否有风险您一看便知。
 <br/>
+
+<a href="https://www.murphysec.com/dr/htY0sMYDQaDn4X8iXp" alt="OSCS Status"><img class="no-zoom" src="https://www.oscs1024.com/platform/badge/dromara/easy-es.git.svg?size=large"/></a>
+
 <br/>
 
 ## 🎉致谢
@@ -287,6 +297,11 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
   <span style="width: 150px;text-align: left">
       <a href="https://baomidou.com/" target="_blank">
           <img :src="$withBase('/img/external/mp.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+      </a>
+  </span>
+  <span style="width: 150px;text-align: left">
+      <a href="https://www.mingdao.com/" target="_blank">
+          <img :src="$withBase('/img/external/md.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
       </a>
   </span>
 </div>
