@@ -2,10 +2,10 @@ module.exports = [
     {text: '💋首页', link: '/'},
     {
         text: '🔞文档', link: '/pages/7ead0d/', items: [
-            {text: 'v2.0.0-beta2(当前版本)', link: '/pages/7ead0d/'},
+            {text: 'v2.0.0-beta3(当前版本)', link: '/pages/7ead0d/'},
             {
                 text: 'What\'s New', items: [
-                    {text: 'What\' s New In Easy-Es v2.0.0-beta1?', link: '/pages/2934a3/'},
+                    {text: 'What\' s New In Easy-Es v2.0.0-betaX?', link: '/pages/2934a3/'},
                 ]
             },
             {
@@ -21,7 +21,12 @@ module.exports = [
         ]
     },
     {text: '💖赞助', link: '/pages/fb599d/'},
-    {text: '🌻生态', link: '/pages/1a819d/'},
+    {
+        text: '🌻生态', items: [
+            {text: '开源社区',link: '/pages/1a819d/'},
+            {text: '周边好物',link: '/pages/1a810c/'}
+        ]
+    },
     {
         text: '🚀关于项目', items: [
             {text: '项目PPT', link: 'https://iknow.hs.net/adc19432-ed67-4afc-a337-89cea135165e.pptx'},

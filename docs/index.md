@@ -26,7 +26,7 @@ postList: none
 notices: # 可选的
     - id: Easy-Es-2.0.0-beta
       title: 🚀 Easy-Es v2.0.0-betaX 发布！
-      content: '<div><p>2023-04</p><ul><li>四大嵌套查询支持</li><li>共计二十余项新特性及优化</li><li>bug修复等</li></ul></div><p style="text-align: right;"><a href="/pages/2934a3/">查看详情</a></p>'
+      content: '<div><p>2023-07</p><ul><li>v2.0.0-beta1</li><li>v2.0.0-beta2</li><li>v2.0.0-beta3</li></ul></div><p style="text-align: right;"><a href="/pages/2934a3/">查看详情</a></p>'
       isHtmlContent: true
 ---
 <Notice :data="$frontmatter.notices"/>
