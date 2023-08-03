@@ -60,13 +60,13 @@ notices: # 可选的
   link: https://datayi.cn/w/4PY7qq59
   bgColor: '#FFB6C1'
   textColor: '#FFFFFF'
-
+  
 - name: AgileBPM
   desc: 快速、简洁且强大的低代码工作流开发平台...
   avatar: /img/sponsor/agile-logo.png
   link: https://www.tongzhouyun.com/
   bgColor: '#FFB6C1'
-  textColor: '#FFFFFF'
+  textColor: '#FFFFFF'  
   
 - name: MaxKey
   desc: 业界领先、安全、可靠的身份管理和单点登录产品...
@@ -79,6 +79,13 @@ notices: # 可选的
   desc: 快速响应业务需求，从“IT背锅侠”变成“IT英雄”
   avatar: /img/sponsor/mingdao-logo.jpg
   link: https://www.mingdao.com?s=utm_67&utm_source=easy-es&utm_medium=banner&utm_campaign=IT%E7%BD%91%E7%AB%99&utm_content=IT%E8%B5%8B%E8%83%BD%E4%B8%9A%E5%8A%A1
+  bgColor: '#1E90FF'
+  textColor: '#FFFFFF'
+
+- name: Fast Request
+  desc: IDEA版Postman, 为简化API调试而生...
+  avatar: /img/sponsor/fastRequest-logo.svg
+  link: https://dromara.gitee.io/fast-request
   bgColor: '#1E90FF'
   textColor: '#FFFFFF'
 
