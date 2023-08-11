@@ -16,20 +16,19 @@
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
     "patch-package": "^6.4.7",
-    "vuepress": "^1.9.7",
+    "vuepress": "^1.9.9",
     "vuepress-plugin-baidu-tongji": "^1.0.1",
     "vuepress-plugin-demo-block": "^0.7.2",
     "vuepress-plugin-fulltext-search": "^2.2.1",
     "vuepress-plugin-one-click-copy": "^1.0.2",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
-    "vuepress-theme-vdoing": "^1.11.2",
+    "vuepress-theme-vdoing": "^1.12.9",
     "yamljs": "^0.3.0"
   },
   "dependencies": {
     "core-js": "2.x",
-    "element-ui": "^2.15.9",
-    "yarn": "^1.22.19"
+    "element-ui": "^2.15.9"
   },
   "description": "Easy-Es官网",
   "main": "index.js",
