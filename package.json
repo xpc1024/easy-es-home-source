@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && node --max_old_space_size=4096 ./node_modules/vuepress/cli.js dev docs",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && node --max_old_space_size=4096 ./node_modules/vuepress/cli.js build docs",
     "deploy": "bash deploy.sh",
     "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
     "editFm": "node utils/editFrontmatter.js",
@@ -27,7 +28,8 @@
   },
   "dependencies": {
     "core-js": "2.x",
-    "element-ui": "^2.15.9"
+    "element-ui": "^2.15.9",
+    "yarn": "^1.22.19"
   },
   "description": "Easy-Es官网",
   "main": "index.js",
