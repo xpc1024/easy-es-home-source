@@ -76,14 +76,14 @@ notices: # 可选的
   textColor: '#FFFFFF'
 
 - name: 明道云
-  desc: 快速响应业务需求，从“IT背锅侠”变成“IT英雄”
+  desc: 千人同聚，48位行业大咖解析零代码实践经验和技术前沿。30个席位限时免费，速抢码：bnee
   avatar: /img/sponsor/mingdao-logo.jpg
-  link: https://www.mingdao.com?s=utm_67&utm_source=easy-es&utm_medium=banner&utm_campaign=IT%E7%BD%91%E7%AB%99&utm_content=IT%E8%B5%8B%E8%83%BD%E4%B8%9A%E5%8A%A1
+  link: https://www.mingdao.com/event/mpc/2023
   bgColor: '#1E90FF'
   textColor: '#FFFFFF'
 
 - name: Fast Request
-  desc: IDEA版Postman, 为简化API调试而生...
+  desc: IDEA版Postman, 更轻, 更快, 更易用, 天下功夫,唯快不破! 为简化API调试而生...
   avatar: /img/sponsor/fastRequest-logo.svg
   link: https://dromara.gitee.io/fast-request
   bgColor: '#1E90FF'
