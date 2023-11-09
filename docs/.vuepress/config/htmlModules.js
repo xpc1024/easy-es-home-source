@@ -37,8 +37,8 @@ module.exports = {
     <a href="http://103.118.41.167:53000/" target="_blank">
       <img class="no-zoom" height="60" width="224" src="/img/sponsor/ai4u.jpg">
     </a>        
-    <a href="https://www.mingdao.com/event/mpc/2023" target="_blank">
-      <img class="no-zoom" height="60" width="224" src="https://iknow.hs.net/dc9db528-718b-4805-b6b3-2323474411a4.gif">
+    <a href="https://www.mingdao.com?s=utm_67&utm_source=easy-es&utm_medium=banner&utm_campaign=IT%E7%BD%91%E7%AB%99&utm_content=IT%E8%B5%8B%E8%83%BD%E4%B8%9A%E5%8A%A1" target="_blank">
+      <img class="no-zoom" height="60" width="224" src="/img/sponsor/mingdao.jpg">
     </a>          
   `,
 
