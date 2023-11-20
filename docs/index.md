@@ -89,6 +89,13 @@ notices: # 可选的
   bgColor: '#1E90FF'
   textColor: '#FFFFFF'
 
+- name: MISBoot低代码开发平台
+  desc: 零代码应用快速搭建、 让开发更简单...
+  avatar: /img/sponsor/mis-logo.png
+  link: https://www.misboot.com/?from=easy-es
+  bgColor: '#1E90FF'
+  textColor: '#FFFFFF'
+
 ```
 :::
 
@@ -310,6 +317,11 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
       <a href="https://www.mingdao.com?s=utm_68&utm_source=easy-es&utm_medium=referral&utm_campaign=friendLink&utm_content=website_footer
 " target="_blank">
           <img :src="$withBase('/img/external/md.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+      </a>
+  </span>
+  <span style="width: 150px;text-align: left">
+      <a href="https://www.misboot.com/?from=easy-es" target="_blank">
+          <img :src="$withBase('/img/sponsor/mis-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
       </a>
   </span>
 </div>
