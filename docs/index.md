@@ -321,7 +321,7 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
   </span>
   <span style="width: 150px;text-align: left">
       <a href="https://www.misboot.com/?from=easy-es" target="_blank">
-          <img :src="$withBase('/img/sponsor/mis-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+          <img :src="$withBase('/img/external/mis-friend.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
       </a>
   </span>
 </div>
