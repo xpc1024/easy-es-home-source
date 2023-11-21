@@ -39,7 +39,10 @@ module.exports = {
     </a>
     <a href="https://www.misboot.com/?from=easy-es" target="_blank">
       <img class="no-zoom" height="60" width="224" src="/img/sponsor/mis.png">
-    </a>               
+    </a>
+    <a href="http://www.yunchengxc.com" target="_blank">
+      <img class="no-zoom" height="60" width="224" src="/img/sponsor/yc.png">
+    </a>                 
   `,
 
   // 万维广告

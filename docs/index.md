@@ -54,6 +54,13 @@ notices: # 可选的
 
 ::: cardList
 ```yaml
+- name: 云程低代码平台
+  desc: 源码交付、私有化部署、定制化开发...
+  avatar: /img/sponsor/yc-logo.jpg
+  link: http://www.yunchengxc.com
+  bgColor: '#FFB6C1'
+  textColor: '#FFFFFF'
+  
 - name: AgileBPM
   desc: 快速、简洁且强大的低代码工作流开发平台...
   avatar: /img/sponsor/agile-logo.png
@@ -315,6 +322,11 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
   <span style="width: 150px;text-align: left">
       <a href="https://www.misboot.com/?from=easy-es" target="_blank">
           <img :src="$withBase('/img/external/mis-friend.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+      </a>
+  </span>
+  <span style="width: 150px;text-align: left">
+      <a href="http://www.yunchengxc.com" target="_blank">
+          <img :src="$withBase('/img/sponsor/yc.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
       </a>
   </span>
 </div>
