@@ -90,7 +90,7 @@ notices: # 可选的
   textColor: '#FFFFFF'
 
 - name: 云程低代码平台
-  desc: 源码交付、 私有化部署、 定制化开发...
+  desc:  源码交付、 私有化部署、 定制化开发...
   avatar: /img/sponsor/yc-logo.jpg
   link: http://www.yunchengxc.com
   bgColor: '#1E90FF'
