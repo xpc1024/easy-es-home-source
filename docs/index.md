@@ -54,13 +54,6 @@ notices: # 可选的
 
 ::: cardList
 ```yaml
-- name: Postcat
-  desc: 强大、开源、跨平台的 API 开发测试工具...
-  avatar: /img/sponsor/postcat-logo.png
-  link: https://datayi.cn/w/4PY7qq59
-  bgColor: '#FFB6C1'
-  textColor: '#FFFFFF'
-  
 - name: AgileBPM
   desc: 快速、简洁且强大的低代码工作流开发平台...
   avatar: /img/sponsor/agile-logo.png

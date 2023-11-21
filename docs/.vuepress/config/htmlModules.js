@@ -25,9 +25,6 @@ module.exports = {
     <a href="https://dromara.gitee.io/fast-request/" target="_blank">
       <img class="no-zoom" height="60" width="224" src="/img/sponsor/fastRequest.svg">
     </a>  
-    <a href="https://datayi.cn/w/4PY7qq59" target="_blank">
-      <img class="no-zoom" height="60" width="224" src="/img/sponsor/postcat.gif">
-    </a>
     <a href="https://www.tongzhouyun.com/" target="_blank">
       <img class="no-zoom" height="60" width="224" src="/img/sponsor/agile.png">
     </a>  
