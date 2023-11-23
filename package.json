@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "vuepress dev docs",
-    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && node --max_old_space_size=4096 ./node_modules/vuepress/cli.js dev docs",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider && node --max_old_space_size=4096 ./node_modules/vuepress/cli.js build docs",
+    "build": "vuepress build docs",
     "deploy": "bash deploy.sh",
     "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
     "editFm": "node utils/editFrontmatter.js",
@@ -12,39 +11,24 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@mr-hope/vuepress-plugin-sitemap": "^1.30.0",
     "dayjs": "^1.9.7",
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
     "patch-package": "^6.4.7",
-    "vuepress": "^1.9.9",
+    "vuepress": "1.9.2",
     "vuepress-plugin-baidu-tongji": "^1.0.1",
     "vuepress-plugin-demo-block": "^0.7.2",
     "vuepress-plugin-fulltext-search": "^2.2.1",
     "vuepress-plugin-one-click-copy": "^1.0.2",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
-    "vuepress-theme-vdoing": "^1.12.9",
+    "vuepress-theme-vdoing": "1.11.2",
     "yamljs": "^0.3.0"
   },
   "dependencies": {
     "core-js": "2.x",
-    "element-ui": "^2.15.9"
-  },
-  "description": "Easy-Es官网",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xpc1024/easy-es-home-source.git"
-  },
-  "author": "老汉",
-  "bugs": {
-    "url": "https://github.com/xpc1024/easy-es-home-source/issues"
-  },
-  "homepage": "https://github.com/xpc1024/easy-es-home-source#readme",
-  "keywords": [
-    "easy-es"
-  ]
+    "element-ui": "^2.15.9",
+    "vue": "2.7.14"
+  }
 }

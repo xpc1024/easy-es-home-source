@@ -1,3 +1,4 @@
+const advHtml = require('./adv.js')
 /** 插入自定义html模块 (可用于插入广告模块等)
  * {
  *   homeSidebarB: htmlString, 首页侧边栏底部
@@ -21,30 +22,7 @@
 
 module.exports = {
   // 赞助商广告
-  sidebarT: `
-    <a href="https://dromara.gitee.io/fast-request/" target="_blank">
-      <img class="no-zoom" height="60" width="224" src="/img/sponsor/fastRequest.svg">
-    </a>  
-    <a href="https://www.tongzhouyun.com/" target="_blank">
-      <img class="no-zoom" height="60" width="224" src="/img/sponsor/agile.png">
-    </a>  
-    <a href="http://maxkey.top/" target="_blank">
-      <img class="no-zoom" height="60" width="224" src="/img/sponsor/maxkey.png">
-    </a>    
-    <a href="http://103.118.41.167:53000/" target="_blank">
-      <img class="no-zoom" height="60" width="224" src="/img/sponsor/ai4u.jpg">
-    </a>        
-    <a href="https://www.mingdao.com?s=utm_67&utm_source=easy-es&utm_medium=banner&utm_campaign=IT%E7%BD%91%E7%AB%99&utm_content=IT%E8%B5%8B%E8%83%BD%E4%B8%9A%E5%8A%A1" target="_blank">
-      <img class="no-zoom" height="60" width="224" src="/img/sponsor/mingdao.jpg">
-    </a>
-    <a href="https://www.misboot.com/?from=easy-es" target="_blank">
-      <img class="no-zoom" height="60" width="224" src="/img/sponsor/mis.png">
-    </a>
-    <a href="http://www.yunchengxc.com" target="_blank">
-      <img class="no-zoom" height="60" width="224" src="/img/sponsor/yc.jpg">
-    </a>                 
-  `,
-
+  sidebarT: advHtml(),
   // 万维广告
   pageT: `
   <div class="wwads-cn wwads-horizontal page-wwads" data-id="174"></div>
