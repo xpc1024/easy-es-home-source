@@ -1,5 +1,5 @@
 # npm
-package-lock.json
+#package-lock.json
 node_modules
 yarn-error.log
 
@@ -7,7 +7,7 @@ yarn-error.log
 .vscode
 
 #yarn
-yarn.lock
+#yarn.lock
 
 # vuepress
 docs/.vuepress/dist
