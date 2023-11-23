@@ -16,7 +16,7 @@ features: # 可选的
   - title: 轻巧强大
     details: 小身躯蕴藏着大能量，几乎零学习成本，几分钟就能上手。却可以完成复杂的ES功能。
   - title: 简单高效
-    details: 先进的设计理念，简单至上，即便是不懂ES的小白，也能轻松驾驭，并节省3-8倍代码量。
+    details: 先进的设计理念，简单至上，即便是不懂ES的小白，也能轻松驾驭，并节省3-80倍代码量。
   - title: 功能丰富
     details: 自动索引托管，自动分页，傻瓜级CRUD，高亮，权重，聚合，IP，GEO地理位置，父子嵌套，应有尽有。
 
@@ -32,23 +32,6 @@ notices: # 可选的
 <Notice :data="$frontmatter.notices"/>
 
 <br/>
-
-<p align="center">
-  <a class="become-sponsor" href="/pages/fb599d/">成为赞助商</a>
-</p>
-
-<br/>
-
-<style>
-.become-sponsor{
-  padding: 8px 20px;
-  display: inline-block;
-  color:  #FFB6C1;
-  border-radius: 30px;
-  box-sizing: border-box;
-  border: 2px solid #FFB6C1;
-}
-</style>
 
 ## ⛵赞助商
 
@@ -99,7 +82,46 @@ notices: # 可选的
 ```
 :::
 
-<br/>
+<style>
+  .page-wwads{
+    width:100%!important;
+    min-height: 0!important;
+    margin: 0;
+  }
+  .page-wwads .wwads-img img{
+    width:80px!important;
+  }
+  .page-wwads .wwads-poweredby{
+    width: 40px;
+    position: absolute;
+    right: 25px;
+    bottom: 3px;
+  }
+  .wwads-content .wwads-text, .page-wwads .wwads-text{
+    height: 100%;
+    padding-top: 5px;
+    display: block;
+  }
+</style>
+
+<style>
+.become-sponsor{
+  padding: 8px 20px;
+  display: inline-block;
+  color:  #FFB6C1;
+  border-radius: 30px;
+  box-sizing: border-box;
+  border: 2px solid #FFB6C1;
+}
+</style>
+
+<!-- AD -->
+<div class="wwads-cn wwads-horizontal page-wwads" data-id="174"></div>
+
+<p align="center">
+  <a class="become-sponsor" href="/pages/fb599d/">成为赞助商</a>
+</p>
+
 <br/>
 
 ## 🍬特性
@@ -337,31 +359,6 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
 </div>
 
 <br/>
-<br/>
-
-<!-- AD -->
-<div class="wwads-cn wwads-horizontal page-wwads" data-id="174"></div>
-<style>
-  .page-wwads{
-    width:100%!important;
-    min-height: 0;
-    margin: 0;
-  }
-  .page-wwads .wwads-img img{
-    width:80px!important;
-  }
-  .page-wwads .wwads-poweredby{
-    width: 40px;
-    position: absolute;
-    right: 25px;
-    bottom: 3px;
-  }
-  .wwads-content .wwads-text, .page-wwads .wwads-text{
-    height: 100%;
-    padding-top: 5px;
-    display: block;
-  }
-</style>
 
 <style lang="stylus">
 .action-button-easyes
