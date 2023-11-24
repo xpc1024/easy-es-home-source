@@ -4,7 +4,7 @@ module.exports = function advHtml() {
    * 广告列表
    */
   let sidebarArray = [
-    `<a name="adv" class="none" href="https://dromara.gitee.io/fast-request/" target="_blank">
+    `<a name="adv" class="none" href="https://api-buddy.cn/" target="_blank">
       <img className="no-zoom" style="width:100%;" src="/img/sponsor/fastRequest.svg">
     </a>`,
     `<a name="adv" class="none" href="https://www.tongzhouyun.com/" target="_blank">
