@@ -29,7 +29,7 @@ module.exports = [
     },
     {
         text: '🚀关于项目', items: [
-            {text: '项目PPT', link: 'https://iknow.hs.net/328ec2dc-72c7-41f7-a2e8-a10d2ee17720.pptx'},
+            {text: '项目PPT', link: 'https://iknow.hs.net/21df32cf-35fb-44f0-945f-06330408c1bd.pptx'},
             {text: '项目介绍', link: '/pages/55wa9d/'},
             {text: '项目成员', link: '/pages/74d5ef/'},
             {text: '参与贡献', link: '/pages/7d828w/'}
