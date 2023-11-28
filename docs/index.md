@@ -66,7 +66,7 @@ notices: # 可选的
   textColor: '#FFFFFF'
 
 - name: MISBoot低代码开发平台
-  desc:  零代码应用快速搭建、 让开发更简单...
+  desc:  零代码应用快速搭建、 让开发变得更简单...
   avatar: /img/sponsor/mis-logo.png
   link: https://www.misboot.com/?from=easy-es
   bgColor: '#1E90FF'
