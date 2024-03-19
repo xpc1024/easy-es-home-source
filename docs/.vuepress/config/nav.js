@@ -2,7 +2,7 @@ module.exports = [
     {text: '💋首页', link: '/'},
     {
         text: '🔞文档', link: '/pages/7ead0d/', items: [
-            {text: 'v2.0.0-beta5(当前版本)', link: '/pages/7ead0d/'},
+            {text: 'v2.0.0-beta6(当前版本)', link: '/pages/7ead0d/'},
             {
                 text: 'What\'s New', items: [
                     {text: 'What\' s New In Easy-Es v2.0.0-betaX?', link: '/pages/2934a3/'},
