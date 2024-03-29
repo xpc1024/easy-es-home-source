@@ -38,7 +38,7 @@ notices: # 可选的
 ::: cardList
 ```yaml
 - name: Fast Request
-  desc: IDEA版Postman, 为简化API调试而生...
+  desc: IDEA版Postman, 便捷, 易用, 为简化API调试而生...
   avatar: /img/sponsor/fastRequest-logo.svg
   link: https://api-buddy.cn/
   bgColor: '#FFB6C1'
@@ -51,10 +51,10 @@ notices: # 可选的
   bgColor: '#FFB6C1'
   textColor: '#FFFFFF'  
   
-- name: MaxKey
-  desc: 业界领先、安全、可靠的身份管理和单点登录产品...
-  avatar: /img/sponsor/maxkey-logo.jpg
-  link: http://maxkey.top/
+- name: JNPF低代码开发平台
+  desc: 技术双引擎系统,无限制业务场景,永久使用权,全源码交付
+  avatar: /img/sponsor/jnpf-logo.png
+  link: https://www.jnpfsoft.com/index.html?from=easy-es
   bgColor: '#FFB6C1'
   textColor: '#FFFFFF'
 
@@ -354,6 +354,11 @@ Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群
   <span style="width: 150px;text-align: left">
       <a href="https://gitee.com/dromara/Akali" target="_blank">
           <img :src="$withBase('/img/external/akali.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+      </a>
+  </span>
+  <span style="width: 150px;text-align: left">
+      <a href="https://www.jnpfsoft.com/index.html?from=easy-es" target="_blank">
+          <img :src="$withBase('/img/sponsor/jnpf.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
       </a>
   </span>
 </div>

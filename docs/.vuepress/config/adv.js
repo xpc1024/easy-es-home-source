@@ -10,8 +10,8 @@ module.exports = function advHtml() {
     `<a name="adv" class="none" href="https://www.tongzhouyun.com/" target="_blank">
       <img className="no-zoom" height="60" width="224" src="/img/sponsor/agile.png">
     </a>`,
-    `<a name="adv" class="none" href="http://maxkey.top/" target="_blank">
-      <img className="no-zoom" height="60" width="224" src="/img/sponsor/maxkey.png">
+    `<a name="adv" class="none" href="https://www.jnpfsoft.com/index.html?from=easy-es" target="_blank">
+      <img className="no-zoom" height="60" width="224" src="/img/sponsor/jnpf.png">
     </a>`,
     `<a name="adv" class="none" href="http://103.118.41.167:53000/" target="_blank">
       <img className="no-zoom" height="60" width="224" src="/img/sponsor/ai4u.jpg">
