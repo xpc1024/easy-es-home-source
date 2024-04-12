@@ -26,7 +26,7 @@ postList: none
 notices: # 可选的
     - id: Easy-Es-2.0.0-beta
       title: 🚀 Easy-Es v2.0.0-betaX 发布！
-      content: '<div><p>2024-01</p><ul><li>v2.0.0-beta1</li><li>v2.0.0-beta2</li><li>v2.0.0-beta...</li><li>v2.0.0-beta7</li></ul></div><p style="text-align: right;"><a href="/pages/2934a3/">查看详情</a></p>'
+      content: '<div><p>2024-01</p><ul><li>v2.0.0-beta1</li><li>v2.0.0-beta2</li><li>v2.0.0-beta...</li><li>v2.0.0-beta8</li></ul></div><p style="text-align: right;"><a href="/pages/2934a3/">查看详情</a></p>'
       isHtmlContent: true
 ---
 <Notice :data="$frontmatter.notices"/>
@@ -195,9 +195,7 @@ compile group: 'org.dromara.easy-es', name: 'easy-es-boot-starter', version: 'La
 
 ## 🎉致谢
 
-Easy-Es自从2021年开源以来，获得了很多人的支持。目前社区群答疑总计超千人，收获Star超3K， 尽管这算不上很多,但对于ES这种高门槛,低频使用的工具,已经算得上优秀了,而且开源至今时间不超1年，
-
-这离不开社区小伙伴的支持和意见以及PR,感谢你们!我们会秉承"把简单,易用,方便留给用户,把复杂留给框架"的理念,致力于实现"让天下没有难用的ES"愿景,继续砥砺前行!
+Easy-Es自从2021年正式开源以来，获得了很多人的支持。目前已常年稳居同类目各项指标排名第一,这离不开社区小伙伴的支持和意见以及PR,感谢你们!我们会秉承"把简单,易用,方便留给用户,把复杂留给框架"的理念,致力于实现"让天下没有难用的ES"愿景,继续砥砺前行!
 
 <br/>
 <br/>
