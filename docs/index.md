@@ -24,9 +24,9 @@ features: # 可选的
 
 postList: none
 notices: # 可选的
-    - id: Easy-Es-2.0.0-beta
-      title: 🚀 Easy-Es v2.0.0-betaX 发布！
-      content: '<div><p>2024-04</p><ul><li>v2.0.0-beta1</li><li>v2.0.0-beta2</li><li>v2.0.0-beta...</li><li>v2.0.0-beta8</li></ul></div><p style="text-align: right;"><a href="/pages/2934a3/">查看详情</a></p>'
+    - id: Easy-Es-2.0.0
+      title: 🚀 Easy-Es v2.0.0 正式版发布！
+      content: '<div><ul><li>2024-05</li><li>海量新特性,欢迎试用!</ul></div><p style="text-align: right;"><a href="/pages/2934a3/">查看详情</a></p>'
       isHtmlContent: true
 ---
 <Notice :data="$frontmatter.notices"/>
