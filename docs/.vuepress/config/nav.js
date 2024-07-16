@@ -39,12 +39,17 @@ module.exports = [
     {text: '谁在使用', link: '/pages/6f829d/'},
     {
         text: '💞推荐', items: [
+            {text: 'Doc-Apis', link: 'https://www.doc-apis.com/'},
             {text: '健身计划一键生成系统', link: 'https://gitee.com/easy-es/fit-plan'},
             {text: 'Vuepress-theme-vdoing', link: 'https://doc.xugaoyi.com/'}
         ]
     },
-    {text: 'Gitee', link: 'https://gitee.com/dromara/easy-es'},
-    {text: 'Github', link: 'https://github.com/dromara/easy-es'},
+    {
+        text: '🌟Source Code', items: [
+            {text: 'Gitee', link: 'https://gitee.com/dromara/easy-es'},
+            {text: 'Github', link: 'https://github.com/dromara/easy-es'},
+        ]
+    },
     {
         text: '💫Language', items: [
             {text: '简体中文', link: 'https://easy-es.cn', target: '_self', rel: ''},

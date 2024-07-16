@@ -7,8 +7,6 @@ tagline: 🚀傻瓜级ElasticSearch搜索引擎ORM框架
 actions:
 - actionText: 🚀开始使用
   actionLink: /pages/7ead0d/
-- actionText: 💘爱发电
-  actionLink: https://afdian.net/a/easy-es
   actionClass: action-button-easyes
 bannerBg: /img/back.png # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 defaultMode: light
@@ -326,6 +324,11 @@ Easy-Es自从2021年正式开源以来，获得了很多人的支持。目前已
   <span style="width: 150px;text-align: left">
       <a href="https://www.oschina.net" target="_blank">
           <img :src="$withBase('/img/external/oschina-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+      </a>
+  </span>
+  <span style="width: 150px;text-align: left">
+      <a href="https://doc-apis.com/" target="_blank">
+          <img :src="$withBase('/img/external/doc-apis.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
       </a>
   </span>
   <span style="width: 150px;text-align: left">
