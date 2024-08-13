@@ -54,7 +54,7 @@ notices: # 可选的
   desc:  零代码应用快速搭建、 让开发变得更简单...
   avatar: /img/sponsor/mis-logo.png
   link: https://www.misboot.com/?from=easy-es
-  bgColor: '#1E90FF'
+  bgColor: '#FFB6C1'
   textColor: '#FFFFFF'  
 
 - name: 明道云零代码平台
