@@ -4,9 +4,6 @@ module.exports = function advHtml() {
    * 广告列表
    */
   let sidebarArray = [
-    `<a name="adv" class="none" href="https://api-buddy.cn/" target="_blank">
-      <img className="no-zoom" height="60" width="224" " src="/img/sponsor/fastRequest.svg">
-    </a>`,
     `<a name="adv" class="none" href="https://www.tongzhouyun.com/" target="_blank">
       <img className="no-zoom" height="60" width="224" src="/img/sponsor/agile.png">
     </a>`,
@@ -25,6 +22,9 @@ module.exports = function advHtml() {
     </a>`,
     `<a name="adv" class="none" href="http://www.yunchengxc.com" target="_blank">
        <img className="no-zoom" height="60" width="224" src="/img/sponsor/yc.jpg">
+    </a>`,
+    `<a name="adv" class="none" href="https://fastbee.cn/" target="_blank">
+      <img className="no-zoom" height="60" width="224" " src="/img/sponsor/fxwl.png">
     </a>`
   ]
 

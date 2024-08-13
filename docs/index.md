@@ -35,12 +35,6 @@ notices: # 可选的
 
 ::: cardList
 ```yaml
-- name: Fast Request
-  desc: IDEA版Postman, 便捷, 易用, 为简化API调试而生...
-  avatar: /img/sponsor/fastRequest-logo.svg
-  link: https://api-buddy.cn/
-  bgColor: '#FFB6C1'
-  textColor: '#FFFFFF'
   
 - name: AgileBPM
   desc: 快速、简洁且强大的低代码工作流开发平台...
@@ -55,6 +49,13 @@ notices: # 可选的
   link: https://www.jnpfsoft.com/index.html?from=easy-es
   bgColor: '#FFB6C1'
   textColor: '#FFFFFF'
+  
+- name: MISBoot低代码开发平台
+  desc:  零代码应用快速搭建、 让开发变得更简单...
+  avatar: /img/sponsor/mis-logo.png
+  link: https://www.misboot.com/?from=easy-es
+  bgColor: '#1E90FF'
+  textColor: '#FFFFFF'  
 
 - name: 明道云零代码平台
   desc: 快速响应业务需求, 从"IT背锅侠"变成"IT英雄"
@@ -63,12 +64,6 @@ notices: # 可选的
   bgColor: '#1E90FF'
   textColor: '#FFFFFF'
 
-- name: MISBoot低代码开发平台
-  desc:  零代码应用快速搭建、 让开发变得更简单...
-  avatar: /img/sponsor/mis-logo.png
-  link: https://www.misboot.com/?from=easy-es
-  bgColor: '#1E90FF'
-  textColor: '#FFFFFF'
 
 - name: 云程低代码平台
   desc:  源码交付、 私有化部署、 定制化开发...
@@ -76,6 +71,13 @@ notices: # 可选的
   link: http://www.yunchengxc.com
   bgColor: '#1E90FF'
   textColor: '#FFFFFF'
+  
+- name: FastBee
+  desc: 简单易用更适合中小企业和个人学习的物联网平台...
+  avatar: /img/sponsor/fxwl-logo.gif
+  link: https://fastbee.cn/
+  bgColor: '#1E90FF'
+  textColor: '#FFFFFF'  
 
 ```
 :::
@@ -360,6 +362,11 @@ Easy-Es自从2021年正式开源以来，获得了很多人的支持。目前已
   <span style="width: 150px;text-align: left">
       <a href="https://www.jnpfsoft.com/index.html?from=easy-es" target="_blank">
           <img :src="$withBase('/img/sponsor/jnpf.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+      </a>
+  </span>
+  <span style="width: 150px;text-align: left">
+      <a href="https://fastbee.cn/" target="_blank">
+          <img :src="$withBase('/img/external/fxwl-friend.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
       </a>
   </span>
 </div>
