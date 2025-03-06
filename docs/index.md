@@ -206,6 +206,10 @@ Easy-Es自从2021年正式开源以来，获得了很多人的支持。目前已
     <img class="no-zoom" src="https://img.shields.io/badge/Gitee-red?logo=gitee&logoColor=white&style=for-the-badge"/>
 </a>
 
+<a href='https://gitcode.com/dromara/easy-es' target="_blank">
+    <img class="no-zoom" src="https://img.shields.io/badge/Gitcode-green?logo=github&logoColor=white&style=for-the-badge"/>
+</a>
+
 <a href="https://github.com/dromara/easy-es" target="_blank">
     <img class="no-zoom" src="https://img.shields.io/badge/Github-blue?logo=github&logoColor=white&style=for-the-badge"/>
 </a>

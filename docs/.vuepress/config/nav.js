@@ -41,12 +41,14 @@ module.exports = [
         text: '💞推荐', items: [
             {text: 'Doc-Apis', link: 'https://www.doc-apis.com/'},
             {text: '健身计划一键生成系统', link: 'https://gitee.com/easy-es/fit-plan'},
+            {text: '极氪汽车',link: '/pages/1a810c/'},
             {text: 'Vuepress-theme-vdoing', link: 'https://doc.xugaoyi.com/'}
         ]
     },
     {
         text: '🌟Source Code', items: [
             {text: 'Gitee', link: 'https://gitee.com/dromara/easy-es'},
+            {text: 'GitCode', link: 'https://gitcode.com/dromara/easy-es'},
             {text: 'Github', link: 'https://github.com/dromara/easy-es'},
         ]
     },
