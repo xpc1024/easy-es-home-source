@@ -6,7 +6,7 @@ heroText: Easy-Es
 tagline: 🚀傻瓜级ElasticSearch搜索引擎ORM框架
 actions:
 - actionText: 🚀开始使用
-  actionLink: /pages/7ead0d/
+  actionLink: /pages/04414d/
   actionClass: action-button-easyes
 bannerBg: /img/back.png # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 defaultMode: light
@@ -24,7 +24,7 @@ postList: none
 notices: # 可选的
     - id: Easy-Es-3.0.0
       title: 🚀 Easy-Es v3.0.0 发布！
-      content: '<div><ul><li>2025-04</li><li>重大底层革新,欢迎试用!</ul></div><p style="text-align: right;"><a href="/pages/5b3428/">查看详情</a></p>'
+      content: '<div><ul><li>2025-05</li><li>重大底层革新,欢迎试用!</ul></div><p style="text-align: right;"><a href="/pages/5b3428/">查看详情</a></p>'
       isHtmlContent: true
 ---
 <Notice :data="$frontmatter.notices"/>
