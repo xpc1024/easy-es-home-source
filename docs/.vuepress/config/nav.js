@@ -1,11 +1,11 @@
 module.exports = [
     {text: '💋首页', link: '/'},
     {
-        text: '🔞文档', link: '/pages/7ead0d/', items: [
-            {text: 'v2.1.0(当前版本)', link: '/pages/7ead0d/'},
+        text: '🔞文档', link: '/pages/v3.x/7ead0d/', items: [
+            {text: 'v3.0.0(当前版本)', link: '/pages/v3.x/7ead0d/'},
             {
                 text: 'What\'s New', items: [
-                    {text: 'What\' s New In Easy-Es v2.1.0?', link: '/pages/2r3423/'},
+                    {text: 'What\' s New In Easy-Es v3.0.0?', link: '/pages/5b3428/'},
                 ]
             },
             {
@@ -15,7 +15,7 @@ module.exports = [
             },
             {
                 text: '升级指南', items: [
-                    {text: '升级到2.x.x说明', link: '/pages/dfd970/'}
+                    {text: '升级到3.x.x说明', link: '/pages/aud910/'}
                 ]
             },
         ]

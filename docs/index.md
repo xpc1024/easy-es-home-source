@@ -22,9 +22,9 @@ features: # 可选的
 
 postList: none
 notices: # 可选的
-    - id: Easy-Es-2.1.0
-      title: 🚀 Easy-Es v2.1.0 发布！
-      content: '<div><ul><li>2025-02</li><li>海量特性,欢迎试用!</ul></div><p style="text-align: right;"><a href="/pages/2r3423/">查看详情</a></p>'
+    - id: Easy-Es-3.0.0
+      title: 🚀 Easy-Es v3.0.0 发布！
+      content: '<div><ul><li>2025-04</li><li>重大底层革新,欢迎试用!</ul></div><p style="text-align: right;"><a href="/pages/5b3428/">查看详情</a></p>'
       isHtmlContent: true
 ---
 <Notice :data="$frontmatter.notices"/>
@@ -173,7 +173,7 @@ compile group: 'org.dromara.easy-es', name: 'easy-es-boot-starter', version: 'La
 
 引入EE即引入了ES所需最小全部依赖,无需再额外去研究和引入ES所需依赖,我们对所有项目透明,代码零侵入,引入不影响您
 
-当前项目的所有功能,底层是RestHighLevelClient,引入后您依旧可以使用RestHighLevelClient全部功能,并且可以
+当前项目的所有功能,底层是ES官方的ElasticsearchClient,引入后您依旧可以使用ElasticsearchClient全部功能,并且可以
 
 享受到EE为您提供的各种开箱即用的功能和解放双手的智能化套件.
 
@@ -195,7 +195,7 @@ compile group: 'org.dromara.easy-es', name: 'easy-es-boot-starter', version: 'La
 
 ## 🎉致谢
 
-Easy-Es自从2021年正式开源以来，获得了很多人的支持。目前已常年稳居同类目各项指标排名第一,这离不开社区小伙伴的支持和意见以及PR,感谢你们!我们会秉承"把简单,易用,方便留给用户,把复杂留给框架"的理念,致力于实现"让天下没有难用的ES"愿景,继续砥砺前行!
+Easy-Es自从2021年正式开源以来,获得了很多人的支持,并持续迭代. 目前已常年稳居同类目各项指标排名第一,这离不开社区小伙伴的支持和意见以及PR,感谢你们!我们会秉承"把简单,易用,方便留给用户,把复杂留给框架"的理念,致力于实现"让天下没有难用的ES"愿景,继续砥砺前行!
 
 <br/>
 <br/>
