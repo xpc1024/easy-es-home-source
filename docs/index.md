@@ -255,9 +255,6 @@ Easy-Es自从2021年正式开源以来,获得了很多人的支持,并持续迭�
     <a href="https://gitee.com/dromara/liteFlow" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
         <img style="height:40px;" :src="$withBase('/img/link/lite-flow.png')" class="no-zoom" title="轻量，快速，稳定，可编排的组件式流程引擎">
     </a>
-    <a href="https://hertzbeat.com/" target="_blank" style="width:15%;  padding:10px 5px 10px 5px;display:inline-block">
-        <img style="height:40px;" :src="$withBase('/img/link/hertzbeat-logo.png')" class="no-zoom" title="易用友好的云监控系统">
-    </a>
     <a href="http://forest.dtflyx.com/" target="_blank" style="width:15%; height:40px;  padding:10px 5px 10px 5px;display:inline-block">
         <img style="height:40px;" :src="$withBase('/img/link/forest-logo.png')" class="no-zoom" title="Forest能够帮助您使用更简单的方式编写Java的HTTP客户端" nf>
     </a>
