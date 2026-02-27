@@ -17,8 +17,8 @@ module.exports = function advHtml() {
 " target="_blank">
        <img className="no-zoom" height="60" width="224" src="/img/sponsor/mingdao.jpg">
     </a>`,
-    `<a name="adv" class="none" href="https://www.misboot.com/?from=easy-es" target="_blank">
-       <img className="no-zoom" height="60" width="224" src="/img/sponsor/mis.png">
+    `<a name="adv" class="none" href="https://ai.haozcloud.com" target="_blank">
+       <img className="no-zoom" height="60" width="224" src="/img/sponsor/hz-ai-banner.jpg">
     </a>`,
     `<a name="adv" class="none" href="http://www.yunchengxc.com" target="_blank">
        <img className="no-zoom" height="60" width="224" src="/img/sponsor/yc.jpg">
