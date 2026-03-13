@@ -7,8 +7,8 @@ module.exports = function advHtml() {
     `<a name="adv" class="none" href="https://www.tongzhouyun.com/" target="_blank">
       <img className="no-zoom" height="60" width="224" src="/img/sponsor/agile.png">
     </a>`,
-    `<a name="adv" class="none" href="https://www.jnpfsoft.com/index.html?from=easy-es" target="_blank">
-      <img className="no-zoom" height="60" width="224" src="/img/sponsor/jnpf.png">
+    `<a name="adv" class="none" href="https://easysearch.cn" target="_blank">
+      <img className="no-zoom" height="60" width="224" src="/img/sponsor/easysearch-banner.png">
     </a>`,
     `<a name="adv" class="none" href="https://www.doc-apis.com/" target="_blank">
       <img className="no-zoom" height="60" width="224" src="/img/external/doc-apis.png">
